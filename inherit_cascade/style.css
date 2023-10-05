@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e4e4e4;
+}
+
+.main {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  width: 65%;
+}
+.aside {
+  width: 34%;
+}
+.main,
+.aside {
+  display: inline-block;
+  vertical-align: top;
+}
+li {
+  /* color: coral; */
+}
+
+h2 {
+  /* font-size: 35px; */
+  margin-top: 0;
+}
+
+p {
+  text-transform: uppercase;
+}
+p.first {
+  text-transform: capitalize;
+  background-color: gray;
+}
+.first {
+  text-transform: lowercase;
+}
+/* nusitaikti i elementa kuris turi dvi klases */
+.first.third {
+  background-color: rgb(251, 131, 151);
+}
+
+/* pataikom i visus li */
+li {
+  /* color: coral; */
+}
+/* nusitaikom i .main viduje esancius li */
+.main li {
+  color: coral;
+}
