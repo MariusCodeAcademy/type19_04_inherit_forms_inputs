@@ -5,3 +5,8 @@
 body {
   background-color: #e4e4e4;
 }
+
+/* padarom kad label ir input nebutu vienoj eilutej */
+/* inputams uzduoti fixuota ploti kad butu vienodi */
+/* padarom tarpeli tarp input-block */
+/* pakeicia texto srifta */
