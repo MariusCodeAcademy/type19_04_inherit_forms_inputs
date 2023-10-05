@@ -4,9 +4,34 @@
 
 body {
   background-color: #e4e4e4;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-form {
+  border: 1px solid rgb(222, 226, 230);
+  background-color: white;
+  padding: 24px;
+  border-radius: 6px;
+  margin: 20px 30px;
 }
 
 /* padarom kad label ir input nebutu vienoj eilutej */
-/* inputams uzduoti fixuota ploti kad butu vienodi */
+.input-block label {
+  display: block;
+  margin-bottom: 8px;
+  color: rgb(33, 37, 41);
+}
+.input-block input {
+  display: block;
+  /* inputams uzduoti fixuota ploti kad butu vienodi */
+  width: 100%;
+  padding: 6px 12px;
+  border: 1px solid rgb(190, 194, 197);
+  border-radius: 6px;
+}
 /* padarom tarpeli tarp input-block */
+.input-block {
+  margin-bottom: 15px;
+}
 /* pakeicia texto srifta */
