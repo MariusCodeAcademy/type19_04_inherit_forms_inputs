@@ -52,3 +52,19 @@ li {
 .main li {
   color: coral;
 }
+.blue p,
+.green p {
+  text-transform: lowercase;
+  /* color: dodgerblue; */
+}
+/* su sudurtiniu nusitaikymu nusitaikyti i p esancius blue ir sumazinti texta 
+i mazasias raides ir padaryti melynu */
+.blue p {
+  color: dodgerblue;
+}
+/* su sudurtiniu nusitaikymu nusitaikyti i p esancius green ir sumazinti texta 
+i mazasias raides ir padaryti zalia ir fonta paryskina */
+.green p {
+  color: green;
+  font-weight: bold;
+}
