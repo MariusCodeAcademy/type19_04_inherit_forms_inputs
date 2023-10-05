@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
     <!-- sujungti css faila -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Lets form</h1>
+
+    <form class="login-form" autocomplete="off">
+      <div class="input-block">
+        <label for="email">Your email</label>
+        <input type="text" id="email" placeholder="Enter email here" />
+      </div>
+      <div class="input-block">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter you pass" />
+      </div>
+      <button type="submit">Login</button>
+    </form>
   </body>
 </html>
